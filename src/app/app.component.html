@@ -1,0 +1,6 @@
+<div class="row">
+  <cron-editor [(cron)]="cronExpression" [disabled]="isCronDisabled" [(options)]="cronOptions"></cron-editor>
+
+  <hr />
+  <p>The resulting Cron expression: <strong>{{cronExpression}}</strong></p>
+</div>
