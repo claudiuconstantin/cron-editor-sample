@@ -21,7 +21,7 @@
     "@angular/platform-browser-dynamic": "~7.0.0",
     "@angular/router": "~7.0.0",
     "core-js": "^2.5.4",
-    "cron-editor": "^1.0.0",
+    "cron-editor": "~2.0.0-beta",
     "rxjs": "~6.3.3",
     "zone.js": "~0.8.26"
   },

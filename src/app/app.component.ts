@@ -15,7 +15,8 @@ export class AppComponent {
     formRadioClass: 'cron-editor-radio',
     formCheckboxClass: 'cron-editor-checkbox',
 
-    defaultTime: "10:00:00",
+    defaultTime: '10:00:00',
+    use24HourTime: true,
 
     hideMinutesTab: false,
     hideHourlyTab: false,
@@ -25,7 +26,8 @@ export class AppComponent {
     hideYearlyTab: false,
     hideAdvancedTab: false,
 
-    use24HourTime: true,
-    hideSeconds: false
+    hideSeconds: false,
+    removeSeconds: false,
+    removeYears: false
   };
 }
