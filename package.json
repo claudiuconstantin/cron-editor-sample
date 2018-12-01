@@ -1,10 +1,23 @@
 {
-  "name": "lib-tester",
+  "name": "cron-editor-sample",
+  "description": "A sample app for the cron-editor library",
+  "author": {
+    "name": "Claudiu Constantin",
+    "email": "claudiu@fastmail.com",
+    "url": "https://claudiuconstantin.com"
+  },
+  "keywords": [
+    "angular",
+    "cron",
+    "cron-expression",
+    "angular-cli",
+    "quartz"
+  ],
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

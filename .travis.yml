@@ -1,0 +1,27 @@
+language: node_js
+node_js:
+  - "11.3.0"
+dist: trusty
+sudo: false
+
+branches:
+  only:
+  - master
+
+cache:
+  directories:
+    - node_modules
+
+install:
+  - yarn
+
+script:
+  - yarn lint
+  - yarn run build --base-href https://claudiuconstantin.github.io/cron-editor-sample/
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GH_TOKEN
+  local_dir: dist/cron-editor-sample
+  on:
+    branch: master
